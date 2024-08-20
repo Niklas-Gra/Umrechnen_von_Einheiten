@@ -41,3 +41,14 @@ tf = tc * urf_tc_tf
 
 # Ergebnis ausgeben
 print(tc, "Grad Celsius", "sind", tf, "Grad Fahrenheit")
+
+#Umrechnung Zentimeter in Zoll
+#Variablen: cm -> Wert in Zentimeter, zoll -> Wert in Zoll, urf_cm_zoll -> Umrechnungsfaktor Zentimeter in Zoll
+cm = float(input("Gib den Wert in Zentimeter ein, den du Umrechnen willst:"))
+urf_cm_zoll = 2.54
+
+#Rechnung
+zoll = cm / urf_cm_zoll
+
+#Ergebnis ausgeben
+print(cm, "Zentimeter", "sind", zoll, "Zoll")
