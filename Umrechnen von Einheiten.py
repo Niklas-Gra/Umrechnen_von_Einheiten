@@ -6,6 +6,7 @@ def menu_umrechnung():
         print("3. Umrechnung Strecke Kilometer -> Meilen")
         print("4. Umrechnung Temperatur °C -> °F")
         print("5. Umrechnung Länge Zentimerter in Zoll")
+        print("6. Umrechnung beenden")
         choice = input("Was soll umgerechnet werden?")
         
         if choice == '1':
