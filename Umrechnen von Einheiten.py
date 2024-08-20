@@ -30,3 +30,14 @@ mi = km / urf_km_mi
 
 # Ergebnis ausgeben
 print(km, "Kilometer", "sind", mi, "Meilen")
+
+# Umrechnung Grad Celsius in Grad Fahrenheit
+# Variabelen: tc -> Wert in Celsius, tf -> Wert in Fahrenheit, urf_tc_tf -> Umrechnungsfaktro Celsius in Fahrenheit
+tc = float(input("Gib den Wert in Grad Celsius ein, den du Umrechnen willst"))
+urf_tc_tf = 1.8 + 32
+
+# Rechnung
+tf = tc * urf_tc_tf
+
+# Ergebnis ausgeben
+print(tc, "Grad Celsius", "sind", tf, "Grad Fahrenheit")
