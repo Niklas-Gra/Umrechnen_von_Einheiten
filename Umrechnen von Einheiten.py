@@ -19,3 +19,14 @@ km_h = m_s * urf_ms_kmh
 
 # Ergebnis ausgeben
 print(m_s, "Meter pro Sekunden", "sind", km_h, "Kilometer pro Stunde")
+
+# Umrechnung Kilometer in Meilen
+# Variabelen: km -> Wert in Kilometern, mi -> Wert in Meilen, urf_km_mi -> Umrechnungsfaktor Kilometer in Meilen
+km = float(input("Gib den Wert in Kilometern an, den du Umrechnen willst:"))
+urf_km_mi = 1.609
+
+# Rechnung
+mi = km / urf_km_mi
+
+# Ergebnis ausgeben
+print(km, "Kilometer", "sind", mi, "Meilen")
