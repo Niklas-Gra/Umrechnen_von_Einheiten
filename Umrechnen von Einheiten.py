@@ -1,5 +1,5 @@
 # Umrechnung Druck Bar in Pascal
-# Variablen: bar -> Wert in Bar, pascal -> Wert in Pascal, urf_bar_pa -> Umrechnungfaktor Bar/Pascal
+# Variablen: bar -> Druck in Bar, pascal -> Druck in Pascal, urf_bar_pa -> Umrechnungfaktor Bar/Pascal
 bar = float(input("Gib den Wert in Bar an, den du Umrechnen willst:"))
 urf_bar_pa = 100000
 
@@ -21,7 +21,7 @@ km_h = m_s * urf_ms_kmh
 print(m_s, "Meter pro Sekunden", "sind", km_h, "Kilometer pro Stunde")
 
 # Umrechnung Kilometer in Meilen
-# Variabelen: km -> Wert in Kilometern, mi -> Wert in Meilen, urf_km_mi -> Umrechnungsfaktor Kilometer in Meilen
+# Variabelen: km -> Strecke in Kilometern, mi -> Strecke in Meilen, urf_km_mi -> Umrechnungsfaktor Kilometer in Meilen
 km = float(input("Gib den Wert in Kilometern an, den du Umrechnen willst:"))
 urf_km_mi = 1.609
 
@@ -32,8 +32,8 @@ mi = km / urf_km_mi
 print(km, "Kilometer", "sind", mi, "Meilen")
 
 # Umrechnung Grad Celsius in Grad Fahrenheit
-# Variabelen: tc -> Wert in Celsius, tf -> Wert in Fahrenheit, urf_tc_tf -> Umrechnungsfaktro Celsius in Fahrenheit
-tc = float(input("Gib den Wert in Grad Celsius ein, den du Umrechnen willst"))
+# Variabelen: tc -> Temperatur in Celsius, tf -> Temperatur in Fahrenheit, urf_tc_tf -> Umrechnungsfaktro Celsius in Fahrenheit
+tc = float(input("Gib den Wert in Grad Celsius ein, den du Umrechnen willst:"))
 urf_tc_tf = 1.8 + 32
 
 # Rechnung
@@ -43,7 +43,7 @@ tf = tc * urf_tc_tf
 print(tc, "Grad Celsius", "sind", tf, "Grad Fahrenheit")
 
 #Umrechnung Zentimeter in Zoll
-#Variablen: cm -> Wert in Zentimeter, zoll -> Wert in Zoll, urf_cm_zoll -> Umrechnungsfaktor Zentimeter in Zoll
+#Variablen: cm -> Länge in Zentimeter, zoll -> Länge in Zoll, urf_cm_zoll -> Umrechnungsfaktor Zentimeter in Zoll
 cm = float(input("Gib den Wert in Zentimeter ein, den du Umrechnen willst:"))
 urf_cm_zoll = 2.54
 
