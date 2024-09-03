@@ -7,6 +7,7 @@ def menu_umrechnung():
         print("4. Umrechnung Temperatur °C -> °F")
         print("5. Umrechnung Länge Zentimerter in Zoll")
         print("6. Umrechnung beenden")
+        print("Kommazahlen müssen mit . anstatt , Eingegeben werden")
         choice = input("Was soll umgerechnet werden?")
         
         if choice == '1':
